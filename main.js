@@ -16,7 +16,6 @@
 
         countButton.addEventListener('click', function(){
             let text = textArea.value;
-            let wordsCount = countWords(text);
             let withoutSpaces = text.length - countSpaces(text);
             result.innerHTML = '<b>Длина текста:</b> ' +
                 text.length + ' символов<br>' +
